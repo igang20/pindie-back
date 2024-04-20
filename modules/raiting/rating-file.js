@@ -7,6 +7,7 @@ const fs = require("fs").promises;
 async function makeRatingFile(path, array) {
   // Читаем содержимое файла по пути path. ratingFile — строка со всем содержимым файла
   const ratingFile = await fs.readFile(path, "utf8");
+
   // Так как ratingFile — строка, то преобразуем её в json
   const ratingArray = JSON.parse(ratingFile);
 

@@ -9,7 +9,6 @@ const server = http.createServer((req, res) => {
 
   switch (url) {
     case "/":
-      res.statusCode = 200;
       mainRouteController(res, "/index.html", ".html");
       break;
     case "/game":

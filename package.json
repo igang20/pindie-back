@@ -1,11 +1,24 @@
 {
-  "name": "kb-backend-week-2-startkit",
+  "name": "pindie-back",
   "version": "1.0.0",
-  "description": "Это стартовый архив для второй проектной работы по бэкенду.",
+  "description": "API for pindie",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igang20/pindie-back.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igang20/pindie-back/issues"
+  },
+  "homepage": "https://github.com/igang20/pindie-back#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
